@@ -16,6 +16,8 @@
 		8CBBC1CB249192E800558406 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC1CA249192E800558406 /* CategoryCell.swift */; };
 		8CBBC1CD249288C300558406 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC1CC249288C300558406 /* Category.swift */; };
 		8CBBC1D024928A1F00558406 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC1CF24928A1F00558406 /* Services.swift */; };
+		8CBBC1D82495FBD600558406 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC1D72495FBD600558406 /* ProductCell.swift */; };
+		8CBBC1DA2495FC9800558406 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC1D92495FC9800558406 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8CBBC1CA249192E800558406 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		8CBBC1CC249288C300558406 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8CBBC1CF24928A1F00558406 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		8CBBC1D72495FBD600558406 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8CBBC1D92495FC9800558406 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				8CBBC1CA249192E800558406 /* CategoryCell.swift */,
+				8CBBC1D72495FBD600558406 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8CBBC1CC249288C300558406 /* Category.swift */,
+				8CBBC1D92495FC9800558406 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,10 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBBC1B624918DED00558406 /* CategoriesVC.swift in Sources */,
+				8CBBC1DA2495FC9800558406 /* Product.swift in Sources */,
 				8CBBC1D024928A1F00558406 /* Services.swift in Sources */,
 				8CBBC1CD249288C300558406 /* Category.swift in Sources */,
 				8CBBC1B224918DED00558406 /* AppDelegate.swift in Sources */,
 				8CBBC1B424918DED00558406 /* SceneDelegate.swift in Sources */,
+				8CBBC1D82495FBD600558406 /* ProductCell.swift in Sources */,
 				8CBBC1CB249192E800558406 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
